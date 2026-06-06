@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
         - name: streamlit-container
-          image: streamlit-app:latest
-          imagePullPolicy: IfNotPresent
+          image: ghcr.io/itz-dhr-u-we/ai-travel-buddy:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 8501
           envFrom:
