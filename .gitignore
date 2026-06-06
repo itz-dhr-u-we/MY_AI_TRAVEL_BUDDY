@@ -1,0 +1,4 @@
+venv/
+.env
+logs/
+MY_AI_TRAVEL_BUDDY.egg-info/
